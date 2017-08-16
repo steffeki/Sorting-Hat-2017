@@ -1,12 +1,10 @@
 # Sorting Hat [v1.0]
-====================
 
 This repository is one example of how a person can build their own moving, talking Sorting Hat. There are a few different Sorting Hats out there with different levels of complexity. I would like to propose my own, which is easy for beginners and relatively inexpensive.
 
 This project specifically is a Sorting Hat that uses a touch sensor for activation, servo motors for movement, and a mirco SD card/speaker for audio. It was built for a computer science class as a summer semester project.
 
 # Repository Contents
-=====================
 
 The following is a list of the contents of this repository:
 
@@ -14,7 +12,6 @@ The following is a list of the contents of this repository:
 * /README.md
 
 # Requirements and Materials
-============================
 
 The following is a list of required libraries and hardware:
 
@@ -38,6 +35,9 @@ Hardware:
 * 1 x 560 ohm resistor
 * 1 x transistor
 * Wires to connect everything
+
+You will also need audio files for the Sorting Hat, which can be found here:
+https://github.com/Bachmann1234/sortinghat/tree/master/audio
 
 # Build Instructions
 
