@@ -36,6 +36,9 @@ Hardware:
 * 1 x transistor
 * Wires to connect everything
 
+Audio:
+-
+
 You will also need audio files for the Sorting Hat, which can be found here:
 https://github.com/Bachmann1234/sortinghat/tree/master/audio
 
