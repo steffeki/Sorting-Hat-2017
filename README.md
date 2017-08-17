@@ -51,6 +51,7 @@ Audio:
 
 Audio files will also be necessary for the Sorting Hat and they can be found here:
 https://github.com/Bachmann1234/sortinghat/tree/master/audio
+
 Note: The names of the files will need to be changed to something shorted (ie. A1.wav). If the file name is too long, it will not play.
 
 # Build Instructions
