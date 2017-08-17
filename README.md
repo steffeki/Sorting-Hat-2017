@@ -57,12 +57,12 @@ Note: The names of the files will need to be changed to something shorted (ie. A
 
 In this section, it is important to not only discuss the hardware used, but also the aesthetic choices made while constructing the Sorting Hat because for a project like this, appearance is paramount.
 
-1) You will need to construct the basic shape of the hat. This can be done using poster board and foam board.
-  (a) Create the cone out of the poster board.
-  (b) Draw the appearance of the Sorting Hat on it.
-  (c) Cut the cone into three separate pieces at the mouth, the eyes, and at the top.
-  (d) Using the foam board, create surfaces to place at the bottom and top of all three pieces (with the exception of the bottom of the       hat).
-  (e) Once these surfaces have been added to the hat, use some sort of fabric to glue the back of all three pieces together, creating a       single piece.
+Step 1: You will need to construct the basic shape of the hat. This can be done using poster board and foam board.
+(a) Create the cone out of the poster board.
+(b) Draw the appearance of the Sorting Hat on it.
+(c) Cut the cone into three separate pieces at the mouth, the eyes, and at the top.
+(d) Using the foam board, create surfaces to place at the bottom and top of all three pieces (with the exception of the bottom of the hat).
+(e) Once these surfaces have been added to the hat, use some sort of fabric to glue the back of all three pieces together, creating a single piece.
 
 This is what your hat should look like by the end of this step:
 
@@ -74,7 +74,7 @@ This is what your hat should look like by the end of this step:
 
 [img3]: https://github.com/steffeki/Sorting-Hat-2017/blob/master/img/basic_hat_back.JPG "Hat from Back"
 
-2) Now it is time to add the servo motors.
+Step 2: Now it is time to add the servo motors.
 
 # Usage
 
