@@ -2,13 +2,21 @@
 
 This repository is one example of how a person can build their own moving, talking Sorting Hat. There are a few different Sorting Hats out there with different levels of complexity. I would like to propose my own, which is easy for beginners and relatively inexpensive.
 
-This project specifically is a Sorting Hat that uses a touch sensor for activation, servo motors for movement, and a mirco SD card/speaker for audio. It was built for a computer science class as a summer semester project.
+This project specifically is a Sorting Hat that uses a touch sensor for activation, servo motors for movement, and a mirco SD card/speaker for audio. It was built for a computer science class as a summer semester project and based off of a project from the Arduino Project Hub by user jegatheesan. The link to the original project can be found here:
+
+https://create.arduino.cc/projecthub/jegatheesan
+
+Here is what the final product of my project looks like:
+
+![alt text][img1]
+
+[img1]: https://github.com/steffeki/Sorting-Hat-2017/blob/master/img/completed_hat.JPG "Completed Hat"
 
 # Repository Contents
 
 The following is a list of the contents of this repository:
 
-* /src - This is where you'll find all the software, including some programs for testing and the final program (.ino).
+* /src - This is where you'll find all the software, including some programs for testing and the final prograAm (.ino).
 * /README.md
 
 # Requirements and Materials
