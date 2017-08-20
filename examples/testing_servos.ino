@@ -7,9 +7,6 @@
 // Add the Servo library
 #include <Servo.h>
 
-// Define pin for touch sensor
-#define TOUCH_SENSOR 8
-
 // Define the servos
 Servo top;
 Servo eye1;
@@ -27,34 +24,26 @@ void setup() {
   eye2.attach(4);
   mouth1.attach(7);
   mouth2.attach(6);
-
-  // Define touch sensor as input (Digital PWN 8)
-  pinMode(TOUCH_SENSOR, INPUT);
 }
 
-void loop() {
-  // Read the current value of the sensor
-  int sensorValue = digitalRead(TOUCH_SENSOR);
+void loop() 
+  // Scan from 60 to 0 degrees
+  for (servoPos = 60; servoPos > 0; servoPos--) {
+    top.write(servoPos);
+    eye1.write(servoPos);
+    eye2.write(servoPos);
+    mouth1.write(servoPos);
+    mouth2.write(servoPos);
+    delay(30);
+   }
 
-  if(!sensorValue) {
-      // Scan from 60 to 0 degrees
-      for (servoPos = 60; servoPos > 0; servoPos--) {
-        top.write(servoPos);
-        eye1.write(servoPos);
-        eye2.write(servoPos);
-        mouth1.write(servoPos);
-        mouth2.write(servoPos);
-        delay(30);
-       }
-
-      // Scan from 0 to 60 degrees
-      for (servoPos = 0; servoPos < 60; servoPos++) {
-        top.write(servoPos);
-        eye1.write(servoPos);
-        eye2.write(servoPos);
-        mouth1.write(servoPos);
-        mouth2.write(servoPos);
-        delay(30);
-      }
+  // Scan from 0 to 60 degrees
+  for (servoPos = 0; servoPos < 60; servoPos++) {
+    top.write(servoPos);
+    eye1.write(servoPos);
+    eye2.write(servoPos);
+    mouth1.write(servoPos);
+    mouth2.write(servoPos);
+    delay(30);
   }
 }
