@@ -144,7 +144,7 @@ And you're done! Congrats, you have your very own Sorting Hat.
 Here are the instructions on how to use the device once it has been completed:
 
 - Plug the Arduino into the computer.
-- Upload the code sorting_hat_2017.ino to the Arduino.
+- Upload the code sorting_hat_2017.ino to the Arduino if it has not already been done.
 - Place the Sorting Hat on someone's head to activate the touch sensor.
 - The hat will then begin to speak and move until the person has been "sorted" into a house.
 - Once the person has been sorted, there will be five seconds to remove the hat before the program loops again.
