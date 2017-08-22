@@ -118,7 +118,7 @@ Here is what the touch pad should look like:
 [img8]: https://github.com/steffeki/Sorting-Hat-2017/blob/master/img/touch_pad.JPG "Touch Pad"
 
 Step 4: Add the micro SD card and speaker.
-* Upload to audio files to the micro SD card.
+* Upload the audio files to the micro SD card.
 * Follow the schematic to connect the micro SD card reader and speaker to the Arduino.
 * Test the card reader and the speaker using the testing_audio.ino program in the examples folder.
 * Once you know they are working, glue the speaker down in the mouth of the Sorting Hat.
